@@ -1,0 +1,4 @@
+loveCube
+========
+
+LOVECUBE - SCHOOL PROJECT
