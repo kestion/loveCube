@@ -1,0 +1,482 @@
+																			/*STYLESHEET*/
+
+body
+{
+	background-color:#fffff0;	
+	margin:0;
+	padding:0;
+}
+
+/*HEADER*/
+
+#header
+{
+	width:100%;
+	height:100%;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+/*NAVIGATION*/
+
+#navigation
+{
+	background-color:#844062;
+	width:100%;
+	height:32px;
+	margin-bottom:50px;
+}
+
+	#navigation li 
+	{ 
+		margin-right:200px; 
+		list-style-type:none;
+		display:inline; 		
+	}	
+	
+		#navigation li:first-child a 
+		{  
+			border-left:none;
+		}
+	
+	#navigation a
+	{ 
+		border-left:1px solid #ffe4e1;
+		padding-left:180px;
+		color:#ffe4e1;
+		font-family:Ebrima, cursive;
+		font-size:22px;
+		text-decoration:none;
+	}
+		
+		 #navigation a:hover
+		 {
+		 	color:#ffa3c2;
+		 }
+	
+/*WRAPPER*/
+
+#wrapper
+{
+	width:100%;
+	height:100%;
+	margin-bottom:30px;
+	margin-left:150px;
+	padding-top:20px;
+	padding-bottom:1px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+																							/*TEMPLATES*/
+
+/* ACCUEIL */
+
+#accueil
+{
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	width:1200px;
+	margin-left:160px;
+	color:#844062;
+	font-family: 'Rouge Script', cursive;
+	font-size:30px;
+	letter-spacing:2px;
+	text-align:center; 
+}
+
+/* PRODUIT */
+
+#produit
+{
+	width:1200px;
+	height:100%;
+	margin-bottom:350px;
+	margin-left:20px;
+}		
+		
+		#description1
+		{
+			background:url('../images/pure2.png') no-repeat;
+			background-size:contain;
+			width:500px;
+			height:500px;
+			display:none;
+		}
+				
+		#description2
+		{
+			background:url('../images/gourmande2.png') no-repeat;
+			background-size:contain;
+			width:500px;
+			height:500px;
+			display:none;
+		}
+				
+		#description3
+		{
+			background:url('../images/sulfureuse2.png') no-repeat;
+			background-size:contain;
+			width:500px;
+			height:500px;
+			display:none;
+		}
+				
+		#description4
+		{
+			background:url('../images/romance2.png') no-repeat;
+			background-size:contain;
+			width:500px;
+			height:500px;
+			display:none;
+		}
+								
+		#center
+		{
+			width:400px;
+			height:400px;
+			margin:auto;
+			clear:both;
+		}
+				
+		#boite1
+		{
+			background-size:contain;
+			width:200px;
+			height:200px;
+			float:left;
+			cursor:pointer;
+		}
+				
+		#boite2
+		{
+			background-size:contain;
+			width:200px;
+			height:200px;
+			float:right;
+			cursor:pointer;
+		}
+				
+		#boite3
+		{
+			background-size:contain;
+			width:200px;
+			height:200px;
+			float:left;
+			cursor:pointer;
+		}
+				
+		#boite4
+		{
+			background-size:contain;
+			width:200px;
+			height:200px;
+			float:right;
+			cursor:pointer;
+		}
+
+/* EVENTS */
+
+#declencheurAnnonces
+{
+	background-color:#ffe4e1;
+	border-radius:15px;
+	margin-bottom:50px;
+	width:100px;
+	padding-left:5px;
+}
+	
+#news
+{
+	color:#ffa347;
+	font-family:"Trajan Pro", cursive;
+	font-size:25px;
+	font-weight:bolder;
+}
+	
+#annonces
+{	
+	padding-left:250px;
+	color:#751975;
+	font-family:Arizonia, cursive;
+	font-size:40px;
+	letter-spacing:3px;
+	display:none;
+}
+	
+	#annonces ul
+	{
+	list-style-type:none;
+	}
+
+		#annonces li
+	 	{
+	 		padding-top:60px;
+	 	}
+		 
+			#annonces li:first-child
+		 	{
+		 		padding-top:50px;
+		 	}
+
+#flyer
+{
+	width:100%;
+	height:300px;
+	margin-bottom:80px;
+	margin-left:500px;
+	display:none;
+}
+	
+#coupon
+{
+	width:100%;
+	height:300px;
+	margin-bottom:100px;
+	margin-left:400px;
+	display:none;
+}
+
+/* FORMULAIRE DE COMMANDE */
+
+#commande 
+{
+	background-image:url('../images/pattern.gif');
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	border: 1px dashed #ffe4e1;
+	border-radius:55px;
+	-moz-box-shadow:-4px 5px 15px 2px #844062;
+	-webkit-box-shadow:-4px 5px 15px 2px #844062;
+	width:750px;
+	height:100%;
+	margin:auto;
+	margin-bottom:30px;
+	margin-left:150px;
+	padding-top:60px;
+	padding-bottom:60px;
+	padding-left:270px;
+	padding-right:280px;
+	color:#844062;
+	font-family:Ebrima, cursive;
+	font-size:16px;
+	letter-spacing:2px;
+	word-spacing:2px;
+}
+
+	#commande legend
+	{
+		border:1px dashed #751975;
+		padding:5px;
+		font-size:18px;
+		text-align:center;
+	}
+	
+	#commande input
+	{
+		background-color: #fff5ff;
+		border: 1px solid #b280b2;
+		padding:3px;
+		color:#751975;
+	}
+
+	.nomChamp
+	{
+		margin-bottom:5px;
+		float:left;
+	}
+	
+	.champ
+	{
+		margin-bottom:5px;
+		margin-left:600px;
+	}
+	
+	.submit
+	{
+		margin-left:280px;
+	}
+	
+/*REDIR*/
+
+#redir 
+{
+	background-image:url('../images/pattern.gif');
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	border: 1px dashed #ffe4e1;
+	border-radius:55px;
+	-moz-box-shadow:-4px 5px 15px 2px #844062;
+	-webkit-box-shadow:-4px 5px 15px 2px #844062;
+	width:750px;
+	height:750px;
+	margin:auto;
+	margin-bottom:15px;
+	margin-left:150px;
+	padding-top:60px;
+	padding-left:270px;
+	padding-right:280px;
+	color:#844062;
+	font-family:Ebrima, cursive;
+	font-size:18px;
+	letter-spacing:2px;
+	word-spacing:2px;
+	text-align: center;
+}
+
+/*CONTACT*/
+#contact
+{	
+	background-color:#844062;
+	opacity:0.9;
+	filter:alpha(opacity=90);
+	width:900px;
+	height:600px;
+	border:3px solid #330033;
+	border-radius:4px;
+	-moz-box-shadow:-8px 8px 6px 3px #a9a9a9;
+	-webkit-box-shadow:-8px 8px 6px 3px #a9a9a9;
+	margin:auto;
+	margin-bottom:30px;
+	margin-left:300px;
+	padding-bottom:35px;
+}
+
+#contactJS
+{	
+	background-color:#fff;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	width:800px;
+	height:500px;
+	border:1px solid #a9a9a9;
+	border-radius:4px;
+	-moz-box-shadow:0px 0px 30px 5px #a9a9a9;
+	-webkit-box-shadow:-20px 20px 50px 1px #a9a9a9;
+	margin:auto;
+	margin-top:50px;
+	padding-top:30px;
+	color:#844062;
+	font-family:Ebrima, cursive;
+	font-size:15px;
+	letter-spacing:2px;
+	word-spacing:3px;
+	text-align:center;
+	display:none;
+}
+
+/*FOOTER*/
+
+#footer
+{
+	width:100%;
+	height:100%;
+}
+	
+	#footer h3
+	{
+		font-family:Ebrima, cursive;
+		font-size:20px;
+		font-weight:normal;
+		display:inline;
+	}
+	
+	#footer p
+	{
+		font-family:Ebrima, cursive;
+		font-size:15px;
+		display:inline;
+	}
+
+#boutonFooter
+{
+	background-color:#300c1d;
+	width:200px;
+	height:30px;
+	border-radius:150px;
+	margin-right:370px;
+	margin-bottom:25px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:15px;
+	padding-top:13px;
+	float:right;
+	color:#f5f5dc;
+	text-align:center;
+}
+
+#myFooter
+{
+	background-color:#300c1d;
+	width:100%;
+	height:345px;
+	margin-top:50px;
+	padding-top:30px;
+	clear:both;
+	color:#f5f5dc;
+	text-align:center;
+	display:none;
+}
+
+	#myFooter p
+	{
+		letter-spacing:2px;
+		word-spacing:3px;
+	}
+	
+	#myFooter cite
+	{
+		letter-spacing:1px;
+	}
+	
+	.blocFooter 
+	{
+		width:400px;
+		height:150px;
+		margin-left:80px;
+		padding:15px;
+		padding-left:90px;
+		float:left;
+	}
+		
+	.blocsFooter
+	{
+		width:400px;
+		height:150px;
+		border:1px dashed #300c1d;
+		border-left-color:#f5f5dc;
+		margin-left:80px;
+		padding:15px;
+		padding-left:90px;
+		float:left;		
+	}
+	
+		.blocsFooter a
+		{
+			color:#f5f5dc;
+			text-decoration:none;
+		}
+		
+		.blocsFooter a:hover
+		{
+			background-color:#f5f5dc;
+			color:#300c1d;
+			text-decoration:none;
+		}
+
+/*PLUS*/	
+
+	.barre
+	{
+		background-color:#f5deb3;
+		width:100%;
+		height:2px;
+		margin-top:20px;
+		margin-bottom:15px;
+	}
+	
+	.clearFix
+	{
+		clear:both;
+	}
+
